@@ -1,0 +1,17 @@
+assets
+__pycache__
+__pycache__/*
+.pytest_cache
+report.html
+.idea/
+output/*
+temp
+Screenshots
+venv
+env
+dist
+build
+main.spec
+RL_Loan_Generator*.exe
+RL-Loan-Generator*.exe
+RL-Loan-Generator.spec

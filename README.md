@@ -12,3 +12,8 @@ Required fields:
     
 Non required fields:
     * ORGANIZATION_ID (This only matters if we want to associate a user with a company) -> Will be rarely used most likely
+
+--------------------------------------------------------------------------------------------------------------------------
+DEVELOPER BUILD INFO:
+
+pyinstaller --onefile --name Add User Tool main.py
