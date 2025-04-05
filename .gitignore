@@ -2,6 +2,7 @@ assets
 __pycache__
 __pycache__/*
 .pytest_cache
+*.spec
 report.html
 .idea/
 output/*
