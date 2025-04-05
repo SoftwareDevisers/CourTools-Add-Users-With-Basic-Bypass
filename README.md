@@ -2,7 +2,7 @@
 
 2. Once you have added all your data to that file, make sure to save it.
 
-3. Double click the run_tool.exe file for the program to run.
+3. Double click the Add User Tool.exe file for the program to run.
 
 Required fields:
     * EMAIL	
@@ -16,4 +16,4 @@ Non required fields:
 --------------------------------------------------------------------------------------------------------------------------
 DEVELOPER BUILD INFO:
 
-pyinstaller --onefile --name "Add User Tool" main.py
+pyinstaller --onefile --name "" main.py

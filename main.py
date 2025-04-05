@@ -1,6 +1,10 @@
 import pandas as pd
 import requests
 
+import urllib3 
+# Suppress only the single warning from urllib3.
+urllib3.disable_warnings(category=urllib3.exceptions.InsecureRequestWarning)
+
 # 1. Load your Excel file
 #    Change the path to wherever your .xlsx lives
 df = pd.read_excel('./upload.xlsx')
@@ -58,6 +62,7 @@ if error_messages:
     print("\nThe following rows failed to create an account:\n")
     for msg in error_messages:
         print(msg)
-    input("\nPress any button to close this window...")
 else:
     print("✅ All accounts created successfully!")
+
+input("\nPress any button to close this window...")
