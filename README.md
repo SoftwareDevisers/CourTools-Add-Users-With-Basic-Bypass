@@ -1,3 +1,9 @@
+1. To use this add data to the upload.xlsx spreadsheet. Below is more information for the fields.
+
+2. Once you have added all your data to that file, make sure to save it.
+
+3. Double click the run_tool.exe file for the program to run.
+
 Required fields:
     * EMAIL	
     * FIRST_NAME	
