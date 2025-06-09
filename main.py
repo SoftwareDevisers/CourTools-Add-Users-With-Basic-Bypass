@@ -12,16 +12,14 @@ urllib3.disable_warnings(category=urllib3.exceptions.InsecureRequestWarning)
 MAX_RETRIES = 3
 RETRY_DELAY = 2  # seconds
 BATCH_SIZE = 10  # Process in batches
-DELAY_BETWEEN_REQUESTS = 0.5  # seconds
-MAX_WORKERS = 3  # Concurrent workers
+DELAY_BETWEEN_REQUESTS = 3  # seconds - increase to avoid SMTP rate limits
+MAX_WORKERS = 1  # Sequential processing to avoid rate limits
 TIMEOUT = 30  # Request timeout in seconds
 
 def process_user(row, idx, session):
     """Process a single user with retry logic"""
     # Build URL
     url = "https://api.courexperience.com/service/create-free-user"
-    url = "http://localhost:8350/service/create-free-user"
-
     
     # Explicitly replace NaN with empty string
     org_id = '' if pd.isna(row['ORGANIZATION_ID']) else row['ORGANIZATION_ID']

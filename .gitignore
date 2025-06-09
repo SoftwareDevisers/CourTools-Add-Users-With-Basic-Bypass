@@ -16,3 +16,5 @@ main.spec
 RL_Loan_Generator*.exe
 RL-Loan-Generator*.exe
 RL-Loan-Generator.spec
+failed_users.xlsx
+migration_log.json
