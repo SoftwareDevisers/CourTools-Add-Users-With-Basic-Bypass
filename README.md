@@ -2,7 +2,7 @@
 
 2. Once you have added all your data to that file, make sure to save it.
 
-3. Double click the Add User Tool.exe file for the program to run.
+3. Double click the Add Users Tool.exe file for the program to run.
 
 Required fields:
     * EMAIL	
