@@ -16,4 +16,4 @@ Non required fields:
 --------------------------------------------------------------------------------------------------------------------------
 DEVELOPER BUILD INFO:
 
-pyinstaller --onefile --name "" main.py
+pyinstaller --onefile --name "Add Users Tool" main.py
